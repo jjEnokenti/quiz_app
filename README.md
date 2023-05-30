@@ -3,7 +3,7 @@
 ### Викторина. Сохраняет в базу вопросы и выдает пользователю
 
 #### 1. Клонируйте проект
-    git clone https://github.com/jjEnokenti/audio_converter.git
+    git clone https://github.com/jjEnokenti/quiz_app.git
 
 #### 2. Создайте в корне проекта .env файл на примере .env.example
 
