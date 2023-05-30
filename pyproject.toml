@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "quiz-app"
+version = "0.1.0"
+description = ""
+authors = ["mgd <mr.zizikk@gamil.com>"]
+readme = "README.md"
+packages = [{include = "quiz_app"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+fastapi = "^0.95.2"
+sqlalchemy = "^2.0.15"
+uvicorn = "^0.22.0"
+httpx = "^0.24.1"
+asyncpg = "^0.27.0"
+python-dotenv = "^1.0.0"
+alembic = "^1.11.1"
+mypy = "^1.3.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
