@@ -43,6 +43,7 @@ services:
 
 volumes:
   pg_data:
+  migrations:
 
 networks:
   quiz_app_network:
