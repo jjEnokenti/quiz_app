@@ -28,6 +28,8 @@ services:
       dockerfile: src/Dockerfile
     env_file:
       - .env
+    volumes:
+      - ./migrations:/app/migrations
     ports:
       - ${WEB_PORT}:8000
     networks:
